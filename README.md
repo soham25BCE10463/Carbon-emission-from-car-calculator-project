@@ -41,3 +41,6 @@ Carbon-emission-from-car-calculator-project/
 ├── README.md             # Project documentation
 └── requirements.txt      # Dependencies (Standard Python)
 ```
+## Steps to Install & Run
+1. Clone the repository
+   git clone [INSERT YOUR REPO LINK HERE]
