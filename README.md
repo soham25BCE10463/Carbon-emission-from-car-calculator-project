@@ -24,11 +24,11 @@ Carbon-emission-from-car-calculator-project/
 │
 |──src/
 |  ├── config.py        (Holds your constants/magic numbers)
-|  ├── utils.py         (Helper functions for formatting lines)
-|  ├── logic.py         (Your calculation math)
 |  ├── inputs.py        (Handles user typing)
+|  ├── logic.py         (Your calculation math)
+|  ├── main.py          (The conductor that runs everything)                                 
 |  ├── ui.py            (Handles all print statements/banners)
-|  └── main.py          (The conductor that runs everything)
+|  └── utils.py         (Helper functions for formatting lines)   
 │
 ├── screenshots/
 │   ├── output.png        # Main execution result
