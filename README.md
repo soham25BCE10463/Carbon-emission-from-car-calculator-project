@@ -22,14 +22,13 @@ The source code is organized into a `src` package containing **6 meaningful modu
 ```text
 Carbon-emission-from-car-calculator-project/
 │
-├── src/
-│   ├── main.py           # Entry point: Orchestrates the application flow
-│   ├── config.py         # Configuration: Stores constants and emission factors
-│   ├── logic.py          # Business Logic: Performs the math calculations
-│   ├── inputs.py         # Input Module: Handles user input & validation
-│   ├── ui.py             # User Interface: Handles all print statements/banners
-│   ├── utils.py          # Utilities: Helper functions (formatting lines)
-│   └── __init__.py       # Package initializer
+|──src/
+|  ├── config.py        (Holds your constants/magic numbers)
+|  ├── utils.py         (Helper functions for formatting lines)
+|  ├── logic.py         (Your calculation math)
+|  ├── inputs.py        (Handles user typing)
+|  ├── ui.py            (Handles all print statements/banners)
+|  └── main.py          (The conductor that runs everything)
 │
 ├── screenshots/
 │   ├── output.png        # Main execution result
