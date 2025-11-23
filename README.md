@@ -3,7 +3,7 @@
 ##  Project Overview
 The **Carbon Emission from Car Calculator** is a Python-based command-line project designed to estimate the carbon emission of vehicle travel. By analyzing fuel type (Petrol/Diesel), distance traveled, and fuel efficiency, the tool calculates total Carbon emissions from car using standard stoichiometric factors.
 
-This project was developed by me as part of the **Python Essentials** course evaluation.It demonstrates **Modular Programming** by splitting logic, user interface, and configuration into separate files.
+This project is developed by me as part of the **Python Essentials** course evaluation for vityarthi.It demonstrates **Modular Programming** by splitting logic, user interface, and configuration into separate files.
 
 ##  Features
 - **Modular Architecture:** The codebase is split into 6 specific modules (`logic`, `ui`, `inputs`, etc.) for maintainability and easy reading
