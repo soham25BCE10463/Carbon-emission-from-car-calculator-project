@@ -56,16 +56,16 @@ To verify the application works as expected, perform the following test case:
 
   ##  Screenshots
   ***step 1***
-  ![step 1](screenshots/step1.png)
+  ![step 1](Screenshots/step1.png.png)
 
 ***step 2***
-![step 2](screenshots/step2.png)
+![step 2](Screenshots/step2.png.png)
 
 ***step 3***
-![step 3](screenshots/step3.png)
+![step 3](Screenshots/step3.png.png)
 
 ***final out put***
-![output](screenshots/output.png)
+![output](Screenshots/output.png.png)
 
 
   ##  Author
