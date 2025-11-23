@@ -43,7 +43,7 @@ Carbon-emission-from-car-calculator-project/
 ```
 ## Steps to Install & Run
 1. Clone the repository:
-  ``` git clone [INSERT YOUR REPO LINK HERE]```
+  ``` git clone https://github.com/soham25BCE10463/Carbon-emission-from-car-calculator-project.git```
 2. Navigate to the Source Directory:
   ``` cd src```
 3. Run the Application:
