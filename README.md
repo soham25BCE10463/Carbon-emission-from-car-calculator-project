@@ -42,5 +42,34 @@ Carbon-emission-from-car-calculator-project/
 └── requirements.txt      # Dependencies (Standard Python)
 ```
 ## Steps to Install & Run
-1. Clone the repository
-   git clone [INSERT YOUR REPO LINK HERE]
+1. Clone the repository:
+  ``` git clone [INSERT YOUR REPO LINK HERE]```
+2. Navigate to the Source Directory:
+  ``` cd src```
+3. Run the Application:
+  ``` python main.py```
+## Instructions for Testing
+To verify the application works as expected, perform the following test case:
+ example 1: Standard Petrol Trip
+  -Input: Fuel = 1 (Petrol), Distance = 1000, Mileage = 18
+  -Expected Output: Total Emission ~ 128.33 kg. Message: "YOUR CAR IS POLLUTING THE ENVIRONMENT PLEASE PLANT SOME TREES".
+
+  ##  Screenshots
+  ***step 1***
+  ![step 1](screenshots/step1.png)
+
+***step 2***
+![step 2](screenshots/step2.png)
+
+***step 3***
+![step 3](screenshots/step3.png)
+
+***final out put***
+![output](screenshots/output.png)
+
+
+  ##  Author
+  **Name** - SOHAM SUDARSHAN SHINDE
+  **REG No** - 25BCE10463
+  **Course name** - Python essentials
+
