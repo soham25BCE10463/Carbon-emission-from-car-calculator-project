@@ -5,13 +5,13 @@ Registration No: 25BCE10463
 Course:Python Essentials.
 
 1. Introduction
--In the modern world, climate change is one of the most dangerous factor, with the transportation sector being a significant contributor to global greenhouse gas emissions. While many individuals desire to be eco friendly, they often dont have the tools to quantify and get their carbn emission values.
+-In the modern world, climate change is one of the most dangerous factors, with the transportation sector being a significant contributor to global greenhouse gas emissions. While many individuals desire to be eco friendly, they often dont have the tools to quantify and get their carbon emission values.
 
 -The Carbon Emission from Car Calculator is a Python based program created by me to overcome this gap. It allows users to estimate the Carbon Dioxide (CO2) emissions of their vehicle based on fuel type, distance, and fuel efficiency. This project applies fundamental programming concepts such as modular design, mathematical modeling, and input validation to solve a real-world environmental problem.
 
 
 2. Problem Statement
--Many drivers are unaware of the specific environmental cost of their daily travels. Without accessible data, it is difficult to act on changes such as switching to public transport. Existing tools are often web-based thus, they require internet access. There is a need for a offline, and immediate command line tool that can calculate emissions accurately based on specific vehicle parameters (Petrol vs. Diesel) and provide instant feedback to the user.
+-Many drivers are unaware of the specific environmental cost of their daily travels. Without accessible data, it is difficult to act on changes such as switching to public transport. Existing tools are often web-based thus, they require internet access. There is a need for an offline, and immediate command line tool that can calculate emissions accurately based on specific vehicle parameters (Petrol vs. Diesel) and provide instant feedback to the user.
 
 
 3. Functional Requirements
@@ -23,7 +23,7 @@ Course:Python Essentials.
 
 >Emission Calculation: The system calculates the total fuel consumed and multiplies it by the specific stoichiometric emission factor which are stored in a configuration module.
 
->Eco-Feedback: The system does analyzes the result and categorizes it (e.g., "High Emission" or "Eco-Friendly"), displaying a relevant advisory message at the end on output.
+>Eco-Feedback: The system analyzes the result and categorizes it (e.g., "High Emission" or "Eco-Friendly"), displaying a relevant advisory message at the end on output.
 
 >Error Handling: The system can detect invalid inputs such as text instead of numbers and provides clear error messages without crashing.
 
