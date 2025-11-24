@@ -12,9 +12,9 @@ The idea of this project is to develop a user friendly, Python based tool that r
 
 ## 3. Target Users
 - *Daily travellers:* Individuals wishing to track and reduce their personal carbon emission.
-- *Eco-conscious Drivers:* Indivisuals looking to optimize their travel efficiency.
+- *Eco-conscious Drivers:* Individuals looking to optimize their travel efficiency.
 - *Students & Educators:* For demonstrating environmental impact calculations in academics.
-- *Logistics Managers:* Small-scale travelling bussiness owners wanting a quick estimate of trip emissions.
+- *Logistics Managers:* Small-scale travelling business owners wanting a quick estimate of trip emissions.
 
 ## 4. High-Level Features
 - *Modular Data Input:* handles very well the user inputs for fuel type and numerical travel data.
