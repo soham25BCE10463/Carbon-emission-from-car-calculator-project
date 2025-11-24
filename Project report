@@ -33,3 +33,44 @@ Course:Python Essentials.
 >Reliability: The system uses defensive programming (try-except blocks) to ensure it handles unexpected user behavior gracefully.
 
 >Accuracy: The system uses standard emission factors (2.31 kg/L for Petrol, 2.68 kg/L for Diesel) derived from environmental standards to ensure realistic estimates.
+
+5. System Architecture
+-The project follows a modular design pattern, splitting the functionality into three distinct Python modules to ensure maintainability and separation of logic.
+
+-Directory Structure:
+
+>src/main.py (main): The entry point of the application. It usually handles user interaction, calls functions from other modules, and displays the final results.
+
+>src/formulas.py (formulas): Contains the core mathematical formulas for calculating carbon emissions based on distance and mileage.
+
+>src/fueltype.py (inputs as petrol types): Manages fuel-specific data, including the selection logic and storage of emission factors (2.31 for Petrol, 2.68 for Diesel).
+
+6.Component Diagram
+-The system is composed of three interacting components:
+
+>User Interface (main.py): gets inputs (Distance, Mileage) and presents outputs.
+
+>Calculation (formulas.py): Processes numerical data to compute the final emission value.
+
+>Data (fueltype.py): Provides the specific stoichiometric constants required for the calculation.
+
+7. Design Decisions & Rationale
+Why Python? 
+->Python was selected for its simplicity and robust handling of mathematical operations.
+Why 3 Modules?
+->I chose to split the code into main.py, formulas.py, and fueltype.py. This decision separates the User Interface from the Math Logic and the Fuel Data. If emission rates change in the future only fueltype.py needs to be updated without risking bugs in the main calculation logic.
+
+Input Validation: implemented within the main module to ensure that invalid data it does not crash the mathematical functions in formulas.py
+
+8.Implementation Details
+-The application logic is distributed as follows:
+>fueltype.py: it Defines the get_emission_factor function, which maps user selection ("1" or "2") to the correct float value (e.g., 2.31).
+>formulas.py: it Defines the compute_carbon_emission function. It implements the formula:
+>Total Emission = (Distance / Mileage) * Emission Factor
+>main.py: Uses a try-except block to catch ValueError during input and orchestrates the flow between the other two modules.
+
+Code Example from formulas.py:
+def compute_carbon_emission(distance, mileage, factor):
+    if mileage <= 0:
+        return 0.0
+    return round((distance / mileage) * factor, 2)
