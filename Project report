@@ -1,1 +1,32 @@
+##  PROJECT REPORT: Carbon Emission Calculator
+***Student Name:*** SOHAM SUDARSHAN SHINDE ***Registration No:*** 25BCE10463 ***Course:*** Python Essentials.
 
+## 1. Introduction
+-In the modern world, climate change is one of the most dangerous factor, with the transportation sector being a significant contributor to global greenhouse gas emissions. While many individuals desire to be eco friendly, they often dont have the tools to quantify and get their carbn emission values.
+
+-The Carbon Emission from Car Calculator is a Python based program created by me to overcome this gap. It allows users to estimate the Carbon Dioxide (CO2) emissions of their vehicle based on fuel type, distance, and fuel efficiency. This project applies fundamental programming concepts such as modular design, mathematical modeling, and input validation to solve a real-world environmental problem.
+
+## 2. Problem Statement
+-Many drivers are unaware of the specific environmental cost of their daily travels. Without accessible data, it is difficult to act on changes such as switching to public transport. Existing tools are often web-based thus, they require internet access. There is a need for a offline, and immediate command line tool that can calculate emissions accurately based on specific vehicle parameters (Petrol vs. Diesel) and provide instant feedback to the user.
+
+## 3. Functional Requirements
+The system implements the following core functions:
+
+***Fuel Selection:*** The system takes user input to select between Petrol and Diesel engines.
+
+***Data Processing:*** The system takes numerical input for "Distance Traveled" (in km) and "Fuel Efficiency" (in km/L).
+
+***Emission Calculation:*** The system calculates the total fuel consumed and multiplies it by the specific stoichiometric emission factor which are stored in a configuration module.
+
+***Eco-Feedback:*** The system does analyzes the result and categorizes it (e.g., "High Emission" or "Eco-Friendly"), displaying a relevant advisory message at the end on output.
+
+***Error Handling:*** The system can detect invalid inputs such as text instead of numbers and provides clear error messages without crashing.
+
+## 4. Non-functional Requirements
+***Usability:*** The application utilizes a clean Command Line Interface  with clear prompts and separators, making it easy for non-technical users to navigate.
+
+***Maintainability:*** The project follows a Modular Architecture (split into 3 separate files), making it easy to update emission factors or logic without breaking the entire code.
+
+***Reliability:*** The system uses defensive programming (try-except blocks) to ensure it handles unexpected user behavior gracefully.
+
+***Accuracy:*** The system uses standard emission factors (2.31 kg/L for Petrol, 2.68 kg/L for Diesel) derived from environmental standards to ensure realistic estimates.
