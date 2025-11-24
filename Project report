@@ -71,8 +71,8 @@ Input Validation: implemented within the main module to ensure that invalid data
 
 8.Implementation Details
 -The application logic is distributed as follows:
->fueltype.py: it Defines the get_emission_factor function, which maps user selection ("1" or "2") to the correct float value (e.g., 2.31).
->formulas.py: it Defines the compute_carbon_emission function. It implements the formula:
+>fueltype.py: It Defines the get_emission_factor function, which maps user selection ("1" or "2") to the correct float value (e.g., 2.31).
+>formulas.py: It Defines the compute_carbon_emission function. It implements the formula:
 >Total Emission = (Distance / Mileage) * Emission Factor
 >main.py: Uses a try-except block to catch ValueError during input and orchestrates the flow between the other two modules.
 
