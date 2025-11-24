@@ -4,11 +4,11 @@
 With the increasing threat of climate change, transportation contributes significantly to global carbon emissions. However, many daily drivers and fleet managers lack an accessible, immediate tool to quantify the environmental impact of their specific vehicle trips. This lack of awareness hinders the adoption of eco-friendly driving habits and prevents individuals from making informed decisions about their travel footprints.
 
 ## 2. Scope of the Project
-The scope of this project is to develop a user-friendly, Python-based command-line tool that bridges the gap between daily travel and environmental data. The system:
+The scope of this project is to develop a user-friendly, Python-based tool that bridges the gap between daily travel and environmental data. The system:
 - Accepts user inputs regarding vehicle travel parameters (fuel type, distance, mileage).
 - Processes these inputs using standard scientific emission factors (stoichiometry).
-- Outputs the total CO2 emissions in kilograms.
-- Provides immediate "Eco-Feedback" to classify the trip as low, moderate, or high emission.
+- Outputs the total Carbon emissions in kilograms.
+- Provides immediate "Eco-Feedback" to classify the trip as safe,polluting environment, or use public transport.
 
 ## 3. Target Users
 - *Daily Commuters:* Individuals wishing to track and reduce their personal carbon footprint.
