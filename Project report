@@ -9,8 +9,10 @@ Course:Python Essentials.
 
 -The Carbon Emission from Car Calculator is a Python based program created by me to overcome this gap. It allows users to estimate the Carbon Dioxide (CO2) emissions of their vehicle based on fuel type, distance, and fuel efficiency. This project applies fundamental programming concepts such as modular design, mathematical modeling, and input validation to solve a real-world environmental problem.
 
+
 2. Problem Statement
 -Many drivers are unaware of the specific environmental cost of their daily travels. Without accessible data, it is difficult to act on changes such as switching to public transport. Existing tools are often web-based thus, they require internet access. There is a need for a offline, and immediate command line tool that can calculate emissions accurately based on specific vehicle parameters (Petrol vs. Diesel) and provide instant feedback to the user.
+
 
 3. Functional Requirements
 -The system implements the following core functions:
@@ -25,6 +27,7 @@ Course:Python Essentials.
 
 >Error Handling: The system can detect invalid inputs such as text instead of numbers and provides clear error messages without crashing.
 
+
 4. Non-functional Requirements
 >Usability: The application utilizes a clean Command Line Interface  with clear prompts and separators, making it easy for non-technical users to navigate.
 
@@ -33,6 +36,7 @@ Course:Python Essentials.
 >Reliability: The system uses defensive programming (try-except blocks) to ensure it handles unexpected user behavior gracefully.
 
 >Accuracy: The system uses standard emission factors (2.31 kg/L for Petrol, 2.68 kg/L for Diesel) derived from environmental standards to ensure realistic estimates.
+
 
 5. System Architecture
 -The project follows a modular design pattern, splitting the functionality into three distinct Python modules to ensure maintainability and separation of logic.
@@ -45,6 +49,7 @@ Course:Python Essentials.
 
 >src/fueltype.py (inputs as petrol types): Manages fuel-specific data, including the selection logic and storage of emission factors (2.31 for Petrol, 2.68 for Diesel).
 
+
 6.Component Diagram
 -The system is composed of three interacting components:
 
@@ -54,6 +59,7 @@ Course:Python Essentials.
 
 >Data (fueltype.py): Provides the specific stoichiometric constants required for the calculation.
 
+
 7. Design Decisions & Rationale
 Why Python? 
 ->Python was selected for its simplicity and robust handling of mathematical operations.
@@ -61,6 +67,7 @@ Why 3 Modules?
 ->I chose to split the code into main.py, formulas.py, and fueltype.py. This decision separates the User Interface from the Math Logic and the Fuel Data. If emission rates change in the future only fueltype.py needs to be updated without risking bugs in the main calculation logic.
 
 Input Validation: implemented within the main module to ensure that invalid data it does not crash the mathematical functions in formulas.py
+
 
 8.Implementation Details
 -The application logic is distributed as follows:
