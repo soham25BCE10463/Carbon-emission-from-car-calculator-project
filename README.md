@@ -6,10 +6,10 @@ The **Carbon Emission from Car Calculator** is a Python-based command-line proje
 This project is developed by me as part of the **Python Essentials** course evaluation for vityarthi.It demonstrates **Modular Programming** by splitting logic, user interface, and configuration into separate files.
 
 ##  Features
-- **Modular Architecture:** The codebase is split into 6 specific modules (`logic`, `ui`, `inputs`, etc.) for maintainability and easy reading
+- **Modular Architecture:** The codebase is split into 3 specific modules ('formula','main','fueltype') for maintainability and easy reading
 - **Dual Fuel Support:** Accurate emission factors for **Petrol** (2.31 kg/L) and **Diesel** (2.68 kg/L).
 - **Eco-Feedback System:** Provides immediate feedback (e.g., "Plant some trees!") based on the severity of emissions.
-- **Robust Error Handling:** safely manages non-numeric inputs and prevents application crashes.
+- **Robust Error Handling:** it can safely manages non numeric inputs and prevents application crashes.
 
 ##  Technologies Used
 - **Language:** Python 3.x
@@ -17,27 +17,27 @@ This project is developed by me as part of the **Python Essentials** course eval
 - **Tools:** GitHub for version control.
 
 ##  Project Structure
-The source code is organized into a `src` package containing **6 meaningful modules**
+The source code is organized into a `src` package containing **3 meaningful modules**
 
 ```text
 Carbon-emission-from-car-calculator-project/
 │
 |──src/
-|  ├── config.py        (Holds your constants/magic numbers)
-|  ├── inputs.py        (Handles user typing)
-|  ├── logic.py         (Your calculation math)
-|  ├── main.py          (The conductor that runs everything)                                 
-|  ├── ui.py            (Handles all print statements/banners)
-|  └── utils.py         (Helper functions for formatting lines)   
+|  ├──  main.py      (it runs all 3 codes together)  
+|  ├── formula.py   (program use this folder for calculating with formulas)
+|  ├── fueltype.py   (it take fuel type input from user)
+|                                
+|  
+|   
 │
 ├── screenshots/
-│   ├── output.png        # Main execution result
-│   ├── step1.png         # Input demonstration
-│   ├── step2.png         # Calculation demonstration
-│   └── step3.png         # Error handling demonstration
+│   ├── output.png        # Main result
+│   ├── step1.png         # Input 1
+│   ├── step2.png         # Input 2
+│   └── step3.png         # Input 3
 │
-├── README.md             # Project documentation
-└── requirements.txt      # libraries used
+├── README.md             # Project overview
+└── statement.md
 ```
 ## Steps to Install & Run
 1. Clone the repository:
@@ -53,16 +53,16 @@ To verify the application works as expected, perform the following test case:
   -Expected Output: Total Emission ~ 128.33 kg. Message: "YOUR CAR IS POLLUTING THE ENVIRONMENT PLEASE PLANT SOME TREES".
 
   ##  Screenshots
-  ***step 1***
+  ***step 1 = input 1***
   ![step 1](Screenshots/step1.png.png)
 
-***step 2***
+***step 2 = input 2***
 ![step 2](Screenshots/step2.png.png)
 
-***step 3***
+***step 3 = input 3***
 ![step 3](Screenshots/step3.png.png)
 
-***final out put***
+***main output***
 ![output](Screenshots/output.png.png)
 
 
